@@ -3,7 +3,9 @@ var count = 0;
 
 function clearIt()
 {
-  document.getElementById("output").innerhtml = " ";
+  sum = 0;
+  count = 0;
+  document.getElementById("output").innerHTML = " ";
 }
 function add(x)
 {
